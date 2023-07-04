@@ -19,7 +19,7 @@ namespace ASP.NET_HW2.Controllers
             return View();
         }
 
-        // RedirectResult 1
+        // RedirectResult
         public IActionResult Redirect()
         {
             return RedirectToAction("Index");
